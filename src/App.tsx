@@ -1,7 +1,7 @@
 import './App.css'
 
 // Placeholder download URL — replace with real Chrome Web Store link
-const CHROME_STORE_URL = '#'
+const CHROME_STORE_URL = 'https://chromewebstore.google.com/detail/tempo-%E2%80%94-speed-reader/chkjmehhihgodjjkjkdmifgcpbeichkg?hl=en-US&utm_source=ext_sidebar'
 // Path to the extension ZIP in /public — place the file at public/tempo-extension.zip
 const EXTENSION_ZIP_URL = '/tempo-chrome.zip'
 
