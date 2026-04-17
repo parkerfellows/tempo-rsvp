@@ -544,6 +544,10 @@ function CTA() {
         </a>
       </div>
       <ManualInstallSteps />
+      <p className="mt-6 text-sm text-zinc-600">
+        Questions? Reach out at{' '}
+        <a href="mailto:theobsidiansociety1@gmail.com" className="text-zinc-400 hover:text-white transition-colors">theobsidiansociety1@gmail.com</a>
+      </p>
     </section>
   )
 }
@@ -559,6 +563,7 @@ function Footer() {
           Tempo
         </div>
         <p className="font-light">Built with React + TypeScript. No tracking. No data collection.</p>
+        <a href="mailto:theobsidiansociety1@gmail.com" className="font-light hover:text-zinc-300 transition-colors">theobsidiansociety1@gmail.com</a>
       </div>
     </footer>
   )
@@ -595,6 +600,10 @@ function ManualInstallSteps() {
           </li>
         ))}
       </ol>
+      <p className="mt-3 text-xs text-zinc-600">
+        Having trouble? Email us at{' '}
+        <a href="mailto:theobsidiansociety1@gmail.com" className="text-zinc-400 hover:text-white transition-colors">theobsidiansociety1@gmail.com</a>
+      </p>
     </div>
   )
 }
